@@ -12,16 +12,21 @@ html {
   font-size: 20px;
 }
 body {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  color: #454959;
+  font-weight: 300;
+  line-height: 1.5;
+
 }
 h1, h2 {
   font-family: 'Abolition Regular', Impact, Charcoal, sans-serif;
   font-weight: normal;
+  line-height: 1.1;
 }
 h1 {
-  font-size: 4rem;
+  text-shadow: 1px 2px 3px rgba(0,10,30,.5);
 }
-h2
+h2 {
   font-size: 2.5rem;
 }
 h3{
@@ -33,7 +38,18 @@ img {
 
 
 /* Main Styles --------------------- */
+header {
+  padding: 10vh 1rem;
+  margin: -1rem -1rem 1rem;
+  background-color: #f3753b;
+  color: white;
+}
 
-
+header, footer {
+  text-align: center;
+}
+.title {
+  letter-spacing: 1px;
+}
 /* Media Queries ------------------- */
 
